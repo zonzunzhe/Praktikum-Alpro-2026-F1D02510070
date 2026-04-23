@@ -27,7 +27,7 @@ int main(){
     std::cout<<"UPPERCASE: "<<static_cast<char>(a-32)<<static_cast<char>(b-32)<<static_cast<char>(c-32)<<static_cast<char>(d-32)<<static_cast<char>(e-32)<<std::endl;
     std::cout<<"ASCII: "<<static_cast<int>(a)<<" "<<static_cast<int>(b)<<" "<<static_cast<int>(c)<<" "<<static_cast<int>(d)<<" "<<static_cast<int>(e)<<" "<<std::endl;
     std::cout<<"Total ASCII: "<<static_cast<int>(a)+static_cast<int>(b)+static_cast<int>(c)+static_cast<int>(d)+static_cast<int>(e)<<" "<<std::endl;
-    std::cout<<"Total ASCII: "<<(static_cast<float>(a)+static_cast<float>(b)+static_cast<float>(c)+static_cast<float>(d)+static_cast<float>(e))/5<<" "<<std::endl;
+    std::cout<<"Rata-Rata: "<<(static_cast<float>(a)+static_cast<float>(b)+static_cast<float>(c)+static_cast<float>(d)+static_cast<float>(e))/5<<" "<<std::endl;
     std::cout <<"===== ENKRIPSI ====="<<std::endl;
     std::cout <<"Masukan Range: ";
     std::cin >> range;
@@ -46,5 +46,5 @@ int main(){
     std::cout <<"Masukan Range: ";
     std::cin >> range;
     std::cout<<"Hasil Enkripsi: "<<r1<<r2<<r3<<r4<<r5<<std::endl;
-
+    return 0;
 }
